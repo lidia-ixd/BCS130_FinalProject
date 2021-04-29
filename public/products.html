@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="shop.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/phl2xbm.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="grid-gallery.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="banner-wrapper">
+        <div class="banner">
+            <div class="image">
+            </div>
+            <div class="header">
+                <h1>hello world!</h1>
+            </div>
+
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="shop.html">Shop</a>
+            </div>
+
+            <div class="row">
+                <div class="leftcolumn">
+                    <div class="card">
+                        <div id="gg-screen"></div>
+                        <h1>products</h1>
+                        <h5>2020</h5>
+                        <div class="gg-box">
+                            <div class="gg-element">
+                                <img src="img/products/p1.jpg">
+                            </div>
+                            <div class="gg-element">
+                                <img src="img/products/p2.jpg">
+                            </div>
+                            <div class="gg-element">
+                                <img src="img/products/p3.jpg">
+                            </div>
+
+                            <div class="gg-element">
+                                <img src="img/products/p4.jpg">
+                            </div>
+                            <div class="gg-element">
+                                <img src="img/products/p5.jpg">
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="card">
+
+            <center><a href="http://instagram.com/lavender.fog" style="margin: 10px;"><img src="img/instagram.svg"></a>
+                <a href="https://twitter.com/lidiariehman" style="margin: 10px;"><img src="img/twitter.svg"></a><a
+                    href="https://www.behance.net/lriehman0ab6" style="margin: 10px;""><img src="img/behance.svg">
+                </a>
+        </div>
+        </center>
+    </div>
+    <div class="back">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="footer">
+
+        &#169; 2020<br>
+        <a href="https://lidiariehman.com/">Lidia Riehman</a><br>
+        <i>all rights reserved.</i>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="/grid-gallery.min.js"></script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
